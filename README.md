@@ -38,16 +38,18 @@ Vim bookmark 截图：
 ----------
 * 如果希望关闭后保存书签，请设置 g:vbookmark_bookmarkSaveFile 变量为保存书签的文件，例如：
 
-	let g:vbookmark_bookmarkSaveFile = $HOME . '/.vimbookmark'
+`let g:vbookmark_bookmarkSaveFile = $HOME . '/.vimbookmark'`
 
 * 如果希望禁用默认的按键绑定，请设置 g:vbookmark_disableMapping 变量，例如：
 
-	" 禁用默认的按键绑定
-	let g:vbookmark_disableMapping = 1
-	" 使用 Visual Studio 书签的按键方式
-	nnoremap <silent> <C-F2> :VbookmarkToggle<CR>
-	nnoremap <silent> <F2> :VbookmarkNext<CR>
-	nnoremap <silent> <S-F2> :VbookmarkPrevious<CR>
+```
+" 禁用默认的按键绑定
+let g:vbookmark_disableMapping = 1
+" 使用 Visual Studio 书签的按键方式
+nnoremap <silent> <C-F2> :VbookmarkToggle<CR>
+nnoremap <silent> <F2> :VbookmarkNext<CR>
+nnoremap <silent> <S-F2> :VbookmarkPrevious<CR>
+```
 
 插件的安装和更新
 ----------------
